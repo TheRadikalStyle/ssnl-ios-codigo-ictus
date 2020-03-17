@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_ssnl" translatesAutoresizingMaskIntoConstraints="NO" id="kxD-WA-kQG">
+                                <rect key="frame" x="8" y="28" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="DBN-qi-bJu"/>
+                                    <constraint firstAttribute="width" constant="80" id="KHE-Ze-kNE"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_nuevaindependencia" translatesAutoresizingMaskIntoConstraints="NO" id="hfc-D5-QAP">
+                                <rect key="frame" x="232" y="28" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="AIW-j9-sfg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="HqB-QL-gfv"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="PVB-nQ-gkU"/>
+                                    <constraint firstAttribute="height" constant="80" id="TBj-E1-sXb"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_codigoembolia" translatesAutoresizingMaskIntoConstraints="NO" id="TaR-zP-6Nr">
+                                <rect key="frame" x="40" y="124" width="240" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La clave del ICTUS (embolia o ataque cerebral) está en recibir un tratamiento a tiempo." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qE-7N-moP">
+                                <rect key="frame" x="8" y="379.5" width="304" height="100.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TaR-zP-6Nr" firstAttribute="top" secondItem="kxD-WA-kQG" secondAttribute="bottom" constant="16" id="Fon-Ay-hhh"/>
+                            <constraint firstItem="kxD-WA-kQG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="IpA-dR-JvV"/>
+                            <constraint firstItem="5qE-7N-moP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Mww-nj-SeZ"/>
+                            <constraint firstItem="5qE-7N-moP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="S2g-97-ijD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5qE-7N-moP" secondAttribute="trailing" constant="8" id="Vgy-Ie-hcz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hfc-D5-QAP" secondAttribute="trailing" constant="8" id="hMS-1f-BVN"/>
+                            <constraint firstItem="TaR-zP-6Nr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="kP0-8b-rDp"/>
+                            <constraint firstItem="kxD-WA-kQG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="lUn-Tv-aOE"/>
+                            <constraint firstItem="hfc-D5-QAP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="nOp-wY-J1N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TaR-zP-6Nr" secondAttribute="trailing" constant="40" id="qYX-pd-aM0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_codigoembolia" width="528" height="200"/>
+        <image name="logo_nuevaindependencia" width="3300" height="2550"/>
+        <image name="logo_ssnl" width="280" height="201"/>
+    </resources>
+</document>

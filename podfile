@@ -1,0 +1,4 @@
+target 'ICTUSCode' do
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+end
